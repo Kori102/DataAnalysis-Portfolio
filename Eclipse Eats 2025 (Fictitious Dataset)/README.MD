@@ -1,8 +1,6 @@
 ## Workbook Context & Analytical Focus
 
-> 😋
->
-> **“Eclipse Eats”**
+> **“😋 Eclipse Eats”**
 >
 
 Eclipse Eats is a fictional international brand I created for a university course project, where I designed its identity, logos, and mockups. The concept features worldwide late-night restaurants delivering unique food and munchies between 00:00–4:00, offering 30 permanent menu items and 10 rotating daily specials.
