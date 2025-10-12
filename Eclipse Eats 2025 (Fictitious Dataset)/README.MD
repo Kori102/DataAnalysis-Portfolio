@@ -5,22 +5,15 @@
 
 Eclipse Eats is a fictional international brand I created for a university course project, where I designed its identity, logos, and mockups. The concept features worldwide late-night restaurants delivering unique food and munchies between 00:00–4:00, offering 30 permanent menu items and 10 rotating daily specials.
 
-> 💡
->
-> The key goal for “Eclipse Eats” will be optimizing delivery operations to ensure profitability and customer satisfaction
+> 💡The key goal for “Eclipse Eats” will be optimizing delivery operations to ensure profitability and customer satisfaction
 >
 
-> 📒
->
-> **The Workbook**
+> **📒 The Workbook**
 >
 
 The dataset I built using ChatGPT is a realistic simulation of an international food delivery company. It includes order-level data that captures the essentials of running such a business: when and where orders happen, how deliveries perform, what customers buy, and how much money flows in. Each record connects timing, geography, customer behavior, and financial details, creating a complete picture of operations. This structure makes the file a strong foundation for exploring questions any business would care about - like demand patterns, late deliveries, popular items, or order value, and for practicing how to turn raw information into clear insights through analysis and dashboards.
 
-> 📢
->
-> **Executive Summary**
->
+> **📢 Executive Summary**
 
 The analysis revealed three clear, high-impact opportunities to drive growth for Eclipse Eats. By focusing on customer frequency, delivery efficiency, and intelligent menu bundling, “Eclipse Eats” can significantly increase revenue and improve customer satisfaction.
 
@@ -28,36 +21,28 @@ The analysis revealed three clear, high-impact opportunities to drive growth for
 
 The customers spend roughly the same amount per order ($3 variance) regardless of segment. The real growth lever is getting them to order more often.
 
-> ✅
->
-> **Action:** Retain Eclipse Eats’ most frequent customers (Club-Goers & Gamers) with loyalty programs. Nurture Students & Night-Shift Workers with targeted meal plans and unlock the high-potential Local Residents by testing family-bundle offers to increase their low purchase frequency.
+> **✅ Action:** Retain Eclipse Eats’ most frequent customers (Club-Goers & Gamers) with loyalty programs. Nurture Students & Night-Shift Workers with targeted meal plans and unlock the high-potential Local Residents by testing family-bundle offers to increase their low purchase frequency.
 >
 
 **2. Optimize Deliveries with a "Smart Fleet".**
 
 The delivery lateness is driven by a mismatch between vehicle, distance, and weather. A one-size-fits-all approach is failing.
 
-> ✅
->
-> **Action:** Implement a dynamic dispatch system. In rain, automatically assign scooters for short trips (to avoid parking delays) and cars for long trips (for reliability). This will immediately reduce late orders and improve the customer experience.
+> **✅ Action:** Implement a dynamic dispatch system. In rain, automatically assign scooters for short trips (to avoid parking delays) and cars for long trips (for reliability). This will immediately reduce late orders and improve the customer experience.
 >
 
 **3. Increase Average Order Value with Intelligent Bundling.**
 
 Customer purchasing data shows clear patterns. The “Ionian Ice Pop” is a universal add-on, and the Lagrange Lasagna is a common meal anchor.
 
-> ✅
->
-> **Action:** Program the app to offer smart, automated bundles. When a customer adds Lasagna, prompt them to add a side. When they order a snack, suggest the Ice Pop. These simple "meal deals" and "sweet duos" will drive incremental revenue on every transaction.
+> **✅ Action:** Program the app to offer smart, automated bundles. When a customer adds Lasagna, prompt them to add a side. When they order a snack, suggest the Ice Pop. These simple "meal deals" and "sweet duos" will drive incremental revenue on every transaction.
 >
 
 ## The Dashboard
 
 ![Dashboard.png](attachment:16ff0c12-07df-47b2-943e-0092f1218dbd:Dashboard.png)
 
-> 📈
->
-> For the full interactive Tableau dashboard [click here](https://public.tableau.com/views/EclipseEats-Updated/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+> 📈 For the full interactive Tableau dashboard [click here](https://public.tableau.com/views/EclipseEats-Updated/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 >
 
 The core questions this dashboard answers include:
@@ -77,16 +62,12 @@ The core questions this dashboard answers include:
 
 ## **Data Cleaning & Preparation Plan**
 
-> 💡
->
-> For this, I created a new sheet called Clean_Data, to keep a backup of the original raw data.
+> 💡 For this, I created a new sheet called Clean_Data, to keep a backup of the original raw data.
 >
 
 ![image.png](attachment:468753cb-1d91-43a2-99d1-8ea6861d893d:image.png)
 
-> 📊
->
-> ### Make time usable across time zones
+> ###📊 Make time usable across time zones
 >
 > **WHY❓** 
 >
@@ -99,9 +80,7 @@ The core questions this dashboard answers include:
 > Spot checks with `=ISNUMBER()`.
 >
 
-> 📊
->
-> ### Numeric hygiene for money fields
+> ###📊 Numeric hygiene for money fields
 >
 > **WHY❓** 
 >
@@ -116,9 +95,7 @@ The core questions this dashboard answers include:
 > ****By doing so, I prevented aggregation errors and made finance metrics trustworthy.
 >
 
-> 📊
->
-> ### Promo intensity: `Discount_Rate`
+> ###📊 Promo intensity: `Discount_Rate`
 >
 > **WHY❓** 
 >
@@ -133,9 +110,7 @@ The core questions this dashboard answers include:
 > ****It gave me a fast way to segment orders by promo pressure and spot abnormal rows.
 >
 
-> 📊
->
-> ### **Financial consistency check**
+> ###📊 **Financial consistency check**
 >
 > **WHY❓** 
 > Ensure `Total_Order_Value` matches the arithmetic `Items_Value + Tip – Discount`.
@@ -155,9 +130,7 @@ The core questions this dashboard answers include:
 > ****It prevented downstream margin distortion and documented a business rule candidate (cap discounts at basket value or record excess as “promo credit”).
 >
 
-> 📊
->
-> ### **Time logic sanity: `Delivery_Time_Min ≥ Prep_Time_Min`**
+> ###📊 **Time logic sanity: `Delivery_Time_Min ≥ Prep_Time_Min`**
 >
 > **WHY❓** 
 > Delivery should include prep; violations indicate entry errors.
@@ -174,9 +147,7 @@ The core questions this dashboard answers include:
 > ****It removed noise from SLA distributions and average delivery time metrics
 >
 
-> 📊
->
-> ### Analysis helpers (readability + segmentation)
+> ###📊 Analysis helpers (readability + segmentation)
 >
 > **Has_Daily_Unique:**
 >
@@ -199,9 +170,7 @@ The core questions this dashboard answers include:
 > It provided crisp comparisons of ETA, tips, and on-time rates by trip length.
 >
 
-> 📊
->
-> ### Count all items per order
+> ###📊 Count all items per order
 >
 > **WHY❓** 
 > Pivot analysis showed `Items_Count` stuck at `0`, even when multiple items were ordered. This column should represent the **sum of Item1_Qty, Item2_Qty, and Item3_Qty**, but blank cells prevented totals.
@@ -219,9 +188,7 @@ The core questions this dashboard answers include:
 > Spot-checked rows: orders with `Item1_Qty=2, Item2_Qty=1, Item3_Qty=0` → `Items_Count=3`. Confirmed pivot values update correctly.
 >
 
-> 📊
->
-> ### Compute daily-unique item quantities
+> ###📊 Compute daily-unique item quantities
 >
 > **WHY❓** 
 > KPIs for the “daily menu” under-counted demand. We only had a boolean `Daily_Unique_In_Order`, but not **quantities** per slot. We need per-slot quantities that treat blanks safely and follow the SKU rule: **permanent items start with “P”; any other prefix = daily unique**.
@@ -282,19 +249,13 @@ After these steps, the dataset is **type-correct, auditable, and analysis-ready*
 - no single segment truly drives AOV. The difference between the highest and lowest AOV is only $3. This suggests that when customers decide to order a special, they tend to build a cart of similar total value, regardless of their segment. This could be due to menu pricing, popular combo deals, or a natural price point for a late-night meal. Therefore, focusing on increasing AOV may be less effective than focusing on increasing order frequency.
 - the segments that place the most orders including unique items are the Club-Goers and Gamers, with Club-Goers placing 130 orders and Gamers placing 118 orders. Following them, Students and Night-Shift workers form a reliable secondary tier with 91 and 85 orders respectively. The remaining segments, including Early Commuters with 39 orders, Local Residents with 36 orders, and Tourists with 31 orders, represent a long tail of infrequent purchasers.
 
-> ➡️
->
-> **Recommendation:** Retain the highest-volume segments, Club-Goers and Gamers, by implementing gamified loyalty programs and curating menu specials that appeal directly to their lifestyles.
+> **➡️ Recommendation:** Retain the highest-volume segments, Club-Goers and Gamers, by implementing gamified loyalty programs and curating menu specials that appeal directly to their lifestyles.
 >
 
-> ➡️
->
-> **Recommendation: I**ncrease the low order frequency of high-spending Local Residents by first analyzing their basket size to determine if they need premium single-meal promotions or family-bundle offers.
+> **➡️ Recommendation: I**ncrease the low order frequency of high-spending Local Residents by first analyzing their basket size to determine if they need premium single-meal promotions or family-bundle offers.
 >
 
-> ➡️
->
-> **Recommendation:** Nurture the Students and Night-Shift segments into core customers by promoting study-group bundles to increase average order value and offering weekly meal plans to boost their purchase frequency.
+> **➡️ Recommendation:** Nurture the Students and Night-Shift segments into core customers by promoting study-group bundles to increase average order value and offering weekly meal plans to boost their purchase frequency.
 >
 
 ### **Q2 -** How do distance, vehicle, weather affect late deliveries?
@@ -307,19 +268,13 @@ After these steps, the dataset is **type-correct, auditable, and analysis-ready*
 - In medium distance, This is the most competitive segment. In clear weather, cars are the least efficient (9.2% late). However, in the rain, cars become the most reliable option (9.0% late), while bike and scooter performance degrades significantly (10.8% and 9.8% late, respectively).
 - In long distance, Cars are the clear winner in adverse conditions. In the rain, the car lateness rate (37.7%) is substantially lower than for bikes (54.1%) and scooters (52.1%). The protection from the elements allows for more consistent travel times over longer stretches.
 
-> ➡️
->
-> **Recommendation: A f**leet heavily reliant on scooters is optimal for urban areas where most deliveries are likely short-to-medium distance. They offer a good balance of speed and resilience.
+> **➡️ Recommendation: A f**leet heavily reliant on scooters is optimal for urban areas where most deliveries are likely short-to-medium distance. They offer a good balance of speed and resilience.
 >
 
-> ➡️
->
-> **Recommendation:** “Eclipse Eats” ****need to automatically assign the smartest vehicle for every order. When it rains, scooters are best for short trips while cars are much better for long ones to make sure food arrives on time.
+> **➡️ Recommendation:** “Eclipse Eats” ****need to automatically assign the smartest vehicle for every order. When it rains, scooters are best for short trips while cars are much better for long ones to make sure food arrives on time.
 >
 
-> ➡️
->
-> **Recommendation:** For long distance deliveries in the rain, “Eclipse Eats” should be upfront with customers and give them a longer, more realistic delivery time and could also temporarily stop delivering to faraway places during bad weather to avoid very late orders.
+> **➡️ Recommendation:** For long distance deliveries in the rain, “Eclipse Eats” should be upfront with customers and give them a longer, more realistic delivery time and could also temporarily stop delivering to faraway places during bad weather to avoid very late orders.
 >
 
 ### **Q3 - Which items co-occur and should be bundled?**
@@ -332,19 +287,13 @@ After these steps, the dataset is **type-correct, auditable, and analysis-ready*
 - The Lagrange Lasagna is the main course that people often build their meal around and they add sides or desserts to complete it.
 - Customers usually order in two main ways either a full meal with a main dish plus extras or a snack and dessert combo for a late night treat.
 
-> ➡️
->
-> **Recommendation:** Make special bundles like a sweet duo or a meal deal to help customers choose quickly and spend a little more.
+> **➡️ Recommendation:** Make special bundles like a sweet duo or a meal deal to help customers choose quickly and spend a little more.
 >
 
-> ➡️
->
-> **Recommendation:** Show smart suggestions in the app so when someone picks the Ice Pop or Lasagna they get an easy prompt to add a matching item.
+> **➡️ Recommendation:** Show smart suggestions in the app so when someone picks the Ice Pop or Lasagna they get an easy prompt to add a matching item.
 >
 
-> ➡️
->
-> **Recommendation:** Test different ways of offering bundles to see which one works best and track if people buy more finish more orders and keep profits healthy.
+> **➡️ Recommendation:** Test different ways of offering bundles to see which one works best and track if people buy more finish more orders and keep profits healthy.
 >
 
 [LinkedIn](https://www.linkedin.com/in/ohad-koriat/) / [ohadkoriat@gmail.com](mailto:ohadkoriat@gmail.com) / 050-597-5718
