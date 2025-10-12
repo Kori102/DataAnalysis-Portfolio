@@ -39,7 +39,7 @@ Customer purchasing data shows clear patterns. The “Ionian Ice Pop” is a uni
 
 ## The Dashboard
 
-![Dashboard 1.png](./images/Dashboard%201.png)
+![Dashboard 1.png](./Images/Dashboard%201.png)
 
 > 📈 For the full interactive Tableau dashboard [click here](https://public.tableau.com/views/EclipseEats-Updated/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 >
@@ -241,7 +241,7 @@ After these steps, the dataset is **type-correct, auditable, and analysis-ready*
 
 ### **Q1 - Which customer segments drive AOV for unique items and Which segments place the most distinct orders that include unique items?**
 
-![Q1.png](./images/Q1.png)
+![Q1.png](./Images/Q1.png)
 
 **Insights & Recommendations**
 
@@ -259,7 +259,7 @@ After these steps, the dataset is **type-correct, auditable, and analysis-ready*
 
 ### **Q2 -** How do distance, vehicle, weather affect late deliveries?
 
-![Q2.3.png](./images/Q2.3.png)
+![Q2.3.png](./Images/Q2.3.png)
 
 **Insights & Recommendations**
 
@@ -278,7 +278,7 @@ After these steps, the dataset is **type-correct, auditable, and analysis-ready*
 
 ### **Q3 - Which items co-occur and should be bundled?**
 
-![Q3.png](./images/Q3.png)
+![Q3.png](./Images/Q3.png)
 
 **Insights & Recommendations**
 
