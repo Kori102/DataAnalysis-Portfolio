@@ -39,7 +39,7 @@ Customer purchasing data shows clear patterns. The “Ionian Ice Pop” is a uni
 
 ## The Dashboard
 
-![Dashboard 1.png](./Images/Dashboard%201.png)
+![Dashboard (1).png](./Images/Dashboard%20%281%29.png)
 
 > 📈 For the full interactive Tableau dashboard [click here](https://public.tableau.com/views/EclipseEats-Updated/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 >
