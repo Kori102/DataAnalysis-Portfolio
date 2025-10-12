@@ -1,5 +1,15 @@
 ## Workbook Context & Analytical Focus
 
+- [Workbook Context & Analytical Focus](#workbook-context--analytical-focus)
+- [The Dashboard](#the-dashboard)
+- [Data Cleaning & Preparation Plan](#data-cleaning--preparation-plan)
+  - [Data Quality Log](#data-quality-log)
+  - [Result](#result)
+- [Answering Key Business Questions for Eclipse Eats](#answering-key-business-questions-for-eclipse-eats)
+  - [Q1 - Customer Segments & AOV](#q1---which-customer-segments-drive-aov-for-unique-items-and-which-segments-place-the-most-distinct-orders-that-include-unique-items)
+  - [Q2 - Delivery Efficiency Factors](#q2---how-do-distance-vehicle-weather-affect-late-deliveries)
+  - [Q3 - Item Bundling Opportunities](#q3---which-items-co-occur-and-should-be-bundled)
+
 ## 😋 “Eclipse Eats”
 
 
