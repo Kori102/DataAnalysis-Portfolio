@@ -64,7 +64,7 @@ The core questions this dashboard answers include:
 > 💡For this, I created a new sheet called Clean_Data, to keep a backup of the original raw data.
 >
 
-![image.png](attachment:468753cb-1d91-43a2-99d1-8ea6861d893d:image.png)
+![image.png](./Images/image.png)
 
 > ### 📊 Make time usable across time zones
 >
