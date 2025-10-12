@@ -10,6 +10,8 @@
   - [Q2 - Delivery Efficiency Factors](#q2---how-do-distance-vehicle-weather-affect-late-deliveries)
   - [Q3 - Item Bundling Opportunities](#q3---which-items-co-occur-and-should-be-bundled)
 
+![Cover.jpg](./Images/Cover.jpg)
+
 ## 😋 “Eclipse Eats”
 
 
