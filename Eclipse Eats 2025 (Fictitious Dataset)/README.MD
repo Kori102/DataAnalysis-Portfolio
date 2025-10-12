@@ -1,6 +1,6 @@
 ## Workbook Context & Analytical Focus
 
-> **😋 “Eclipse Eats”**
+> ## 😋 “Eclipse Eats”
 >
 
 Eclipse Eats is a fictional international brand I created for a university course project, where I designed its identity, logos, and mockups. The concept features worldwide late-night restaurants delivering unique food and munchies between 00:00–4:00, offering 30 permanent menu items and 10 rotating daily specials.
@@ -8,12 +8,12 @@ Eclipse Eats is a fictional international brand I created for a university cours
 > 💡The key goal for “Eclipse Eats” will be optimizing delivery operations to ensure profitability and customer satisfaction
 >
 
-> ## **📒 The Workbook**
+> ## 📒 The Workbook
 >
 
 The dataset I built using ChatGPT is a realistic simulation of an international food delivery company. It includes order-level data that captures the essentials of running such a business: when and where orders happen, how deliveries perform, what customers buy, and how much money flows in. Each record connects timing, geography, customer behavior, and financial details, creating a complete picture of operations. This structure makes the file a strong foundation for exploring questions any business would care about - like demand patterns, late deliveries, popular items, or order value, and for practicing how to turn raw information into clear insights through analysis and dashboards.
 
-> ## **📢 Executive Summary**
+> ## 📢 Executive Summary
 >
 
 The analysis revealed three clear, high-impact opportunities to drive growth for Eclipse Eats. By focusing on customer frequency, delivery efficiency, and intelligent menu bundling, “Eclipse Eats” can significantly increase revenue and improve customer satisfaction.
