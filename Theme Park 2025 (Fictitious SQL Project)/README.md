@@ -122,6 +122,12 @@ This analysis compares domestic and international visitor behavior in terms of s
 
 Together, these analytical questions form a cohesive framework that connects operational performance with visitor experience, enabling data driven strategies for growth, engagement, and efficiency.
 
+**Q8. How does the average visit duration of U.S. citizens compare to that of international visitors across different seasons (Winter, Spring, Summer, Fall)?**
+
+This analysis examines seasonal patterns in visit duration to determine whether international visitors tend to spend more time in the park than domestic guests within the same seasonal conditions.
+
+By isolating seasonal effects, the comparison highlights behavioral differences driven by travel purpose and trip intensity rather than timing alone, offering valuable context for capacity planning, pricing, and experience optimization.
+
 ## Insights & Recommendations
 ### Insight 1
 Seasonality and crowd timing metrics show a clear summer peak with the highest month in August 2025 and sustained strength in June and July. Arrival concentration at 10 AM (Entry Hour) with 17,374 visitors and strong spillover at 9 and 11 AM plus an average exit of 17:15 confirm the core crowd window from late morning to early evening. Average visit duration also peaks in summer with July at 7.41 Visit Duration and June and August at 7.39.
