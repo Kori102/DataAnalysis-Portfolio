@@ -312,3 +312,48 @@ GROUP BY
         WHEN Country = 'United States' THEN 'US'
         ELSE 'International'
     END;
+
+-- Q8. How does the average visit duration of U.S. citizens compare to that of international visitors across different seasons (Winter, Spring, Summer, Fall)?
+
+WITH SeasonComparison AS (
+    SELECT 
+        CASE 
+            WHEN Country = 'United States' THEN 'US Visitors'
+            ELSE 'International Visitors'
+        END AS Visitor_Type,
+
+        CASE 
+            WHEN MONTH(VisitDate) IN (12, 1, 2) THEN 'Winter'
+            WHEN MONTH(VisitDate) IN (3, 4, 5) THEN 'Spring'
+            WHEN MONTH(VisitDate) IN (6, 7, 8) THEN 'Summer'
+            WHEN MONTH(VisitDate) IN (9, 10, 11) THEN 'Fall'
+        END AS Season,
+
+        ROUND(AVG(CAST(VisitDuration AS FLOAT)), 2) AS Avg_Visit_Duration
+    FROM Visitors$
+    WHERE VisitDuration IS NOT NULL
+    GROUP BY 
+        CASE 
+            WHEN Country = 'United States' THEN 'US Visitors'
+            ELSE 'International Visitors'
+        END,
+        CASE 
+            WHEN MONTH(VisitDate) IN (12, 1, 2) THEN 'Winter'
+            WHEN MONTH(VisitDate) IN (3, 4, 5) THEN 'Spring'
+            WHEN MONTH(VisitDate) IN (6, 7, 8) THEN 'Summer'
+            WHEN MONTH(VisitDate) IN (9, 10, 11) THEN 'Fall'
+        END
+)
+SELECT *
+FROM SeasonComparison
+ORDER BY 
+    CASE Visitor_Type 
+        WHEN 'US Visitors' THEN 1
+        ELSE 2
+    END,
+    CASE Season
+        WHEN 'Winter' THEN 1
+        WHEN 'Spring' THEN 2
+        WHEN 'Summer' THEN 3
+        WHEN 'Fall' THEN 4
+    END;
