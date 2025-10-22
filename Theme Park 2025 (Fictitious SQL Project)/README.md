@@ -149,10 +149,10 @@ Arrival concentration at 10 AM (Entry Hour) with 17,374 visitors and strong spil
 Origin metrics show a concentrated footprint. Virginia at 6,014 Visitors and Maryland at 4,083 lead US states, with Minnesota (3,947), Illinois (3,909) and New Jersey (3,874) close behind. International demand is led by United Kingdom at 2,089 visitors and Australia at 2,011.
 
 #### Actionable recommendations
-*   Run geo targeted media and retargeting in the five lead US states and the lead countries.
-*   Create state specific family offers for Virginia and Maryland and distribute through regional partners and employers.
-*   Localize top site pages and confirmation flows for United Kingdom and Australia.
-*   Bundle tickets with nearby attractions and hotels that index well for these origins.
+*   Launch a "Virginia Family Pack" digital marketing campaign. Data shows that Virginia visitors purchasing family tickets have an average group size of 4 people. This campaign should target family demographic segments       within the state.
+*   Since ticket purchase patterns for our other top states are very similar to Virginia, I recommend allocating 15 percent of the initial Virginia campaign budget to test its performance in Maryland and Illinois.
+*   To better serve top international markets, the United Kingdom and Australia, we should update the website. This includes displaying ticket prices in pounds sterling and Australian dollars and using localized               spelling on key booking pages.
+*   Create partnerships with family friendly hotels in the top five US states. Offer a bundled package that includes a hotel stay and park tickets at a 10% discount to drive multi day visits from these key regions.
 
 ### Insight 3
 Visit composition metrics show families and pairs dominate on site behavior. Family tickets average 4 people. Single tickets average 1. Most other ticket types average 2. International visitors average 6.96 hours per visit and US visitors average 6.86 hours which signals comparable group mix and a slight lift in stay for international guests.
