@@ -1,4 +1,4 @@
-# Theme Park SQL Analysis
+# 2025 Visitor Analysis for Theme Park Operations & Marketing
 ![Cover.jpg](./Images/Cover.jpg)
 ## Table of Contents
 
