@@ -20,9 +20,9 @@
   * [Insight 3](#insight-3)
 
 ## Introduction:
-Welcome to the "Theme Park Visitors Analysis" project! This exploration dives into a rich dataset that captures the full journey of guests who visited a large theme park across multiple dates and locations. Every record tells a story about who the visitors are, when they arrived, what kind of tickets they purchased, and how long they stayed.
+This analysis was conducted for the Head of Park Operations to identify key drivers of visitor attendance and duration during the 2025 season. The recommendations will be used by the marketing team to optimize Q4 campaign spending and by the operations team to adjust staffing for the upcoming holiday season.
 
-This project focuses on turning raw visit data into meaningful insights about attendance trends, crowd behavior, and visitor engagement. From identifying peak seasons and average group sizes to comparing international and domestic travel patterns, the SQL analysis provides a clear view of what drives guest experiences and operational success.
+The SQL analysis examines attendance trends, average group sizes, and international versus domestic travel patterns to provide clear, actionable insights for these strategic goals.
 
 ## Dataset Overview
 The dataset provides a comprehensive set of visitor attributes, behavioral patterns, and operational metrics, capturing essential aspects of theme park attendance, engagement, and promotion activity.
@@ -130,7 +130,8 @@ By isolating seasonal effects, the comparison highlights behavioral differences 
 
 ## Insights & Recommendations
 ### Insight 1
-Seasonality and crowd timing metrics show a clear summer peak with the highest month in August 2025 and sustained strength in June and July. Arrival concentration at 10 AM (Entry Hour) with 17,374 visitors and strong spillover at 9 and 11 AM plus an average exit of 17:15 confirm the core crowd window from late morning to early evening. Average visit duration also peaks in summer with July at 7.41 Visit Duration and June and August at 7.39.
+Analysis of 2025 seasonality confirms August was the peak attendance month with 730 visitors. This peak concluded a period of significant growth, with attendance increasing by 24.6% from May to August. The buildup included a 14.3% rise in June and a final 5.6% increase leading into August. This trend represents a shift from 2024, when the attendance peak occurred earlier in June with 720 visitors and was driven by a sharper initial increase. The sustained growth through August 2025 confirms that the entire summer quarter requires high operational focus.
+Arrival concentration at 10 AM (Entry Hour) with 17,374 visitors and strong spillover at 9 and 11 AM plus an average exit of 17:15 confirm the core crowd window from late morning to early evening. Average visit duration also peaks in summer with July at 7.41 Visit Duration and June and August at 7.39.
 
 #### Actionable recommendations
 *   Prioritize capacity staffing and on site programming between 9 and 18 to smooth the peak window.
