@@ -130,16 +130,22 @@ By isolating seasonal effects, the comparison highlights behavioral differences 
 
 ## Insights & Recommendations
 ### Insight 1
+
+![Insight 1 Chart](Images/Insight1.png)
+
 Analysis of 2025 seasonality confirms August was the peak attendance month with 730 visitors. This peak concluded a period of significant growth, with attendance increasing by 24.6% from May to August. The buildup included a 14.3% rise in June and a final 5.6% increase leading into August. This trend represents a shift from 2024, when the attendance peak occurred earlier in June with 720 visitors and was driven by a sharper initial increase. The sustained growth through August 2025 confirms that the entire summer quarter requires high operational focus.
+
 Arrival concentration at 10 AM (Entry Hour) with 17,374 visitors and strong spillover at 9 and 11 AM plus an average exit of 17:15 confirm the core crowd window from late morning to early evening. Average visit duration also peaks in summer with July at 7.41 Visit Duration and June and August at 7.39.
 
 #### Actionable recommendations
-*   Prioritize capacity staffing and on site programming between 9 and 18 to smooth the peak window.
-*   Launch timed entry inventory and queue reservations centered on 10 to 12.
-*   Offer early bird perks for 9 arrivals and late day bundles after 15 to rebalance flow.
-*   Shift campaign budgets to build demand in May and September to extend the season shoulder.
+*   Given the 24.6% increase in attendance from May to August, I recommend increasing operational staff by 20% during these months. This increase should focus on the 9 AM to 1 PM entry window to manage peak arrival times.
+*   To alleviate the heavy 10 AM arrival concentration, the marketing team should introduce an early bird incentive, such as a 15 percent discount on food for guests who enter before 9 AM.
+*   With sustained growth now confirmed through August, I recommend reallocating 10% of the Q4 marketing budget to a "September Savings" campaign. This will capitalize on late summer travel and smooth the drop in              attendance after the peak.
 
 ### Insight 2
+
+![Insight 2 Chart](Images/Insight2.png)
+
 Origin metrics show a concentrated footprint. Virginia at 6,014 Visitors and Maryland at 4,083 lead US states, with Minnesota (3,947), Illinois (3,909) and New Jersey (3,874) close behind. International demand is led by United Kingdom at 2,089 visitors and Australia at 2,011.
 
 #### Actionable recommendations
