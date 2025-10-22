@@ -150,18 +150,21 @@ Origin metrics show a concentrated footprint. Virginia at 6,014 Visitors and Mar
 
 #### Actionable recommendations
 *   Launch a "Virginia Family Pack" digital marketing campaign. Data shows that Virginia visitors purchasing family tickets have an average group size of 4 people. This campaign should target family demographic segments       within the state.
-*   Since ticket purchase patterns for our other top states are very similar to Virginia, I recommend allocating 15 percent of the initial Virginia campaign budget to test its performance in Maryland and Illinois.
+*   Since ticket purchase patterns for our other top states are very similar to Virginia, I recommend allocating 15% of the initial Virginia campaign budget to test its performance in Maryland and Illinois.
 *   To better serve top international markets, the United Kingdom and Australia, we should update the website. This includes displaying ticket prices in pounds sterling and Australian dollars and using localized               spelling on key booking pages.
 *   Create partnerships with family friendly hotels in the top five US states. Offer a bundled package that includes a hotel stay and park tickets at a 10% discount to drive multi day visits from these key regions.
 
 ### Insight 3
+
+![Insight 3 Chart](Images/Insight3.png)
+
 Visit composition metrics show families and pairs dominate on site behavior. Family tickets average 4 people. Single tickets average 1. Most other ticket types average 2. International visitors average 6.96 hours per visit and US visitors average 6.86 hours which signals comparable group mix and a slight lift in stay for international guests.
 
 #### Actionable recommendations
-*   Design a family day path with four person meal and photo bundles and prebooked activity slots.
-*   Create pair experiences for two person party types such as guided highlights tours tasting add ons and reserved seating.
-*   Introduce late afternoon add on experiences that target international guests who stay longer and can extend spend between 16 and 18.
-*   Test targeted upsell prompts in the purchase flow that adapt to ticket type and party size.
+*   Since family tickets average four people, I recommend creating a "Family Day Path" bundle. This package should include a four person meal deal and a digital photo pass to increase ancillary spending from our largest       visitor groups.
+*   The data shows that most non family ticket types average a group size of two. To capitalize on this, we should introduce "Couples" and "Friends" packages. These could include a guided highlights tour or reserved           seating at shows to target this key two person demographic.
+*   International visitors stay slightly longer than domestic visitors with an average visit of 6.96 hours. I recommend testing a late afternoon add on experience, like a "Sunset Dessert Tasting", to capture additional        revenue from these guests during their extended stay.
+*   Based on the clear link between ticket type and group size, we should implement targeted upsells in the online booking system. When a user selects a Family ticket, the system should automatically prompt them to add a      four person meal deal to their cart before checkout.
 
 [LinkedIn](https://www.linkedin.com/in/ohad-koriat/) / [ohadkoriat@gmail.com](mailto:ohadkoriat@gmail.com) / 050-597-5718
 
